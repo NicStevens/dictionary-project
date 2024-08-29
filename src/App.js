@@ -8,7 +8,16 @@ function App() {
       <main>
         <Dictionary />
       </main>
-      <footer className="App-footer">Coded by Nicky Stevens</footer>
+      <footer className="App-footer">
+        Coded by Nicky Stevens and is open-sourced on{" "}
+        <a
+          href="https://github.com/NicStevens/dictionary-project"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+      </footer>
     </div>
   );
 }
