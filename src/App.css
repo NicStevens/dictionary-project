@@ -1,6 +1,19 @@
-.App-header {
-  font-size: 64px;
+.App {
+  color: #385170;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.App h1 {
+  font-size: 50px;
   text-align: center;
+  font-family: "Cinzel", serif;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.App .book {
+  font-size: 40px;
 }
 
 .App-footer {
