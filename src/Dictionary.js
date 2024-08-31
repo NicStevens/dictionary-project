@@ -60,7 +60,7 @@ export default function Dictionary(props) {
             />
           </form>
           <div className="suggestions">
-            Examples: fun, electric, computer, victory, etc.
+            Examples: highlands, fun, electric, computer, etc.
           </div>
         </section>
         <Results results={results} />
