@@ -3,7 +3,6 @@ import "./Photos.css";
 
 export default function Photos(props) {
   if (props.photos) {
-    console.log(props.photos);
     return (
       <section className="Photos">
         <div className="row">
@@ -15,7 +14,11 @@ export default function Photos(props) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={photo.src.landscape} className="img-fluid" />{" "}
+                  <img
+                    src={photo.src.landscape}
+                    className="img-fluid"
+                    alt="example"
+                  />{" "}
                 </a>
               </div>
             );

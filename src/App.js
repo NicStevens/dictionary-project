@@ -11,13 +11,29 @@ function App() {
         <Dictionary defaultKeyword="highlands" />
       </main>
       <footer className="App-footer">
-        Coded by Nicky Stevens and is open-sourced on{" "}
+        Coded by{" "}
+        <a
+          href="https://www.linkedin.com/in/nicky-stevens-ba763a8"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Nicky Stevens
+        </a>
+        , open-sourced on{" "}
         <a
           href="https://github.com/NicStevens/dictionary-project"
           target="_blank"
           rel="noopener noreferrer"
         >
           GitHub
+        </a>{" "}
+        and hosted on{" "}
+        <a
+          href="https://dictionary-nicky-stevens.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Netlify
         </a>
       </footer>
     </div>
