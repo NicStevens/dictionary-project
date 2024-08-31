@@ -8,7 +8,7 @@ function App() {
         <h1>The Dictionary App</h1>
       </header>
       <main>
-        <Dictionary defaultKeyword="imagination" />
+        <Dictionary defaultKeyword="highlands" />
       </main>
       <footer className="App-footer">
         Coded by Nicky Stevens and is open-sourced on{" "}
